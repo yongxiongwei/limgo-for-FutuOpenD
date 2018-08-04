@@ -23,7 +23,8 @@ func main() {
 
 	block := make(chan bool)
 
-	req := &limgo.Request{Host: "127.0.0.1", Port: "11111"}
+	req := &limgo.Request{Host: "safe.lim.app", Port: "11113"}
+	// req := &limgo.Request{Host: "127.0.0.1", Port: "11111"}
 	err := req.Connect()
 	if err != nil {
 		fmt.Println(err)

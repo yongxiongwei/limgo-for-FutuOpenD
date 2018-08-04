@@ -31,7 +31,7 @@ func (m *C2S) Reset()         { *m = C2S{} }
 func (m *C2S) String() string { return proto.CompactTextString(m) }
 func (*C2S) ProtoMessage()    {}
 func (*C2S) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Trd_UnlockTrade_40884fb8c906e96e, []int{0}
+	return fileDescriptor_Trd_UnlockTrade_5be486d7f8921ef6, []int{0}
 }
 func (m *C2S) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_C2S.Unmarshal(m, b)
@@ -75,7 +75,7 @@ func (m *S2C) Reset()         { *m = S2C{} }
 func (m *S2C) String() string { return proto.CompactTextString(m) }
 func (*S2C) ProtoMessage()    {}
 func (*S2C) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Trd_UnlockTrade_40884fb8c906e96e, []int{1}
+	return fileDescriptor_Trd_UnlockTrade_5be486d7f8921ef6, []int{1}
 }
 func (m *S2C) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_S2C.Unmarshal(m, b)
@@ -106,7 +106,7 @@ func (m *Request) Reset()         { *m = Request{} }
 func (m *Request) String() string { return proto.CompactTextString(m) }
 func (*Request) ProtoMessage()    {}
 func (*Request) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Trd_UnlockTrade_40884fb8c906e96e, []int{2}
+	return fileDescriptor_Trd_UnlockTrade_5be486d7f8921ef6, []int{2}
 }
 func (m *Request) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Request.Unmarshal(m, b)
@@ -148,7 +148,7 @@ func (m *Response) Reset()         { *m = Response{} }
 func (m *Response) String() string { return proto.CompactTextString(m) }
 func (*Response) ProtoMessage()    {}
 func (*Response) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Trd_UnlockTrade_40884fb8c906e96e, []int{3}
+	return fileDescriptor_Trd_UnlockTrade_5be486d7f8921ef6, []int{3}
 }
 func (m *Response) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Response.Unmarshal(m, b)
@@ -206,10 +206,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("Trd_UnlockTrade/Trd_UnlockTrade.proto", fileDescriptor_Trd_UnlockTrade_40884fb8c906e96e)
+	proto.RegisterFile("Trd_UnlockTrade/Trd_UnlockTrade.proto", fileDescriptor_Trd_UnlockTrade_5be486d7f8921ef6)
 }
 
-var fileDescriptor_Trd_UnlockTrade_40884fb8c906e96e = []byte{
+var fileDescriptor_Trd_UnlockTrade_5be486d7f8921ef6 = []byte{
 	// 228 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x6c, 0x8e, 0xbf, 0x4b, 0x04, 0x31,
 	0x10, 0x85, 0xc9, 0xed, 0xad, 0x7b, 0x8e, 0x85, 0x10, 0x45, 0x82, 0x85, 0x2c, 0x0b, 0xca, 0x36,

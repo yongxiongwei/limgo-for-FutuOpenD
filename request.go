@@ -73,7 +73,7 @@ func (r *Request) Recv() {
 			if len(data) > 44 {
 				length := uint32(0)
 				binary.Read(bytes.NewReader(data[12:16]), binary.LittleEndian, &length)
-				if int(length)+4 < len(data) {
+				if int(length)+44 < len(data) {
 					return int(length) + 44, data[:int(length)+44], nil
 				}
 			}
@@ -100,6 +100,9 @@ func (r *Request) Recv() {
 
 			r.FutuID = *fut.S2C.LoginUserID
 			r.ConnID = *fut.S2C.ConnID
+
+			fmt.Println("r.FutuID: ", r.FutuID)
+			time.Sleep(2 * time.Second)
 
 			fmt.Println(fut.String())
 		} else if pack.nProtoID == uint32(1002) {
@@ -149,6 +152,9 @@ func (r *Request) Recv() {
 
 		} else if pack.nProtoID == uint32(3011) {
 			fut := &Qot_UpdateTicker.Response{}
+
+			fmt.Println("3011 len: ", len(pack.arrBody))
+
 			err = proto.Unmarshal(pack.arrBody, fut)
 			if err != nil {
 				log.Fatal("unmarshaling error:", err)

@@ -36,7 +36,7 @@ func (m *C2S) Reset()         { *m = C2S{} }
 func (m *C2S) String() string { return proto.CompactTextString(m) }
 func (*C2S) ProtoMessage()    {}
 func (*C2S) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Qot_Sub_40893991d674b2af, []int{0}
+	return fileDescriptor_Qot_Sub_2f659b3d88ae7802, []int{0}
 }
 func (m *C2S) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_C2S.Unmarshal(m, b)
@@ -108,7 +108,7 @@ func (m *S2C) Reset()         { *m = S2C{} }
 func (m *S2C) String() string { return proto.CompactTextString(m) }
 func (*S2C) ProtoMessage()    {}
 func (*S2C) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Qot_Sub_40893991d674b2af, []int{1}
+	return fileDescriptor_Qot_Sub_2f659b3d88ae7802, []int{1}
 }
 func (m *S2C) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_S2C.Unmarshal(m, b)
@@ -139,7 +139,7 @@ func (m *Request) Reset()         { *m = Request{} }
 func (m *Request) String() string { return proto.CompactTextString(m) }
 func (*Request) ProtoMessage()    {}
 func (*Request) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Qot_Sub_40893991d674b2af, []int{2}
+	return fileDescriptor_Qot_Sub_2f659b3d88ae7802, []int{2}
 }
 func (m *Request) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Request.Unmarshal(m, b)
@@ -180,7 +180,7 @@ func (m *Response) Reset()         { *m = Response{} }
 func (m *Response) String() string { return proto.CompactTextString(m) }
 func (*Response) ProtoMessage()    {}
 func (*Response) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Qot_Sub_40893991d674b2af, []int{3}
+	return fileDescriptor_Qot_Sub_2f659b3d88ae7802, []int{3}
 }
 func (m *Response) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Response.Unmarshal(m, b)
@@ -237,9 +237,9 @@ func init() {
 	proto.RegisterType((*Response)(nil), "Qot_Sub.Response")
 }
 
-func init() { proto.RegisterFile("Qot_Sub/Qot_Sub.proto", fileDescriptor_Qot_Sub_40893991d674b2af) }
+func init() { proto.RegisterFile("Qot_Sub/Qot_Sub.proto", fileDescriptor_Qot_Sub_2f659b3d88ae7802) }
 
-var fileDescriptor_Qot_Sub_40893991d674b2af = []byte{
+var fileDescriptor_Qot_Sub_2f659b3d88ae7802 = []byte{
 	// 323 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x6c, 0x90, 0xc1, 0x4b, 0xeb, 0x40,
 	0x10, 0xc6, 0x49, 0xd2, 0x34, 0x7d, 0xd3, 0x1e, 0x1e, 0xfb, 0xfa, 0x1e, 0xa1, 0x0f, 0xca, 0x92,

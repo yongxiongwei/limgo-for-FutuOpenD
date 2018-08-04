@@ -31,7 +31,7 @@ func (m *C2S) Reset()         { *m = C2S{} }
 func (m *C2S) String() string { return proto.CompactTextString(m) }
 func (*C2S) ProtoMessage()    {}
 func (*C2S) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Trd_GetAccList_dc0bd2d154a8826f, []int{0}
+	return fileDescriptor_Trd_GetAccList_0c589f14ac0fb28b, []int{0}
 }
 func (m *C2S) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_C2S.Unmarshal(m, b)
@@ -69,7 +69,7 @@ func (m *S2C) Reset()         { *m = S2C{} }
 func (m *S2C) String() string { return proto.CompactTextString(m) }
 func (*S2C) ProtoMessage()    {}
 func (*S2C) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Trd_GetAccList_dc0bd2d154a8826f, []int{1}
+	return fileDescriptor_Trd_GetAccList_0c589f14ac0fb28b, []int{1}
 }
 func (m *S2C) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_S2C.Unmarshal(m, b)
@@ -107,7 +107,7 @@ func (m *Request) Reset()         { *m = Request{} }
 func (m *Request) String() string { return proto.CompactTextString(m) }
 func (*Request) ProtoMessage()    {}
 func (*Request) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Trd_GetAccList_dc0bd2d154a8826f, []int{2}
+	return fileDescriptor_Trd_GetAccList_0c589f14ac0fb28b, []int{2}
 }
 func (m *Request) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Request.Unmarshal(m, b)
@@ -149,7 +149,7 @@ func (m *Response) Reset()         { *m = Response{} }
 func (m *Response) String() string { return proto.CompactTextString(m) }
 func (*Response) ProtoMessage()    {}
 func (*Response) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Trd_GetAccList_dc0bd2d154a8826f, []int{3}
+	return fileDescriptor_Trd_GetAccList_0c589f14ac0fb28b, []int{3}
 }
 func (m *Response) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Response.Unmarshal(m, b)
@@ -207,10 +207,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("Trd_GetAccList/Trd_GetAccList.proto", fileDescriptor_Trd_GetAccList_dc0bd2d154a8826f)
+	proto.RegisterFile("Trd_GetAccList/Trd_GetAccList.proto", fileDescriptor_Trd_GetAccList_0c589f14ac0fb28b)
 }
 
-var fileDescriptor_Trd_GetAccList_dc0bd2d154a8826f = []byte{
+var fileDescriptor_Trd_GetAccList_0c589f14ac0fb28b = []byte{
 	// 253 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x6c, 0x8f, 0xc1, 0x4b, 0xc3, 0x30,
 	0x14, 0xc6, 0xc9, 0xda, 0x59, 0x7d, 0x03, 0x0f, 0x19, 0x48, 0x98, 0x28, 0xa1, 0x22, 0xf4, 0xa0,

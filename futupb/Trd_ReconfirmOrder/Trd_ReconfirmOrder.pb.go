@@ -6,7 +6,7 @@ package Trd_ReconfirmOrder
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import Common "lwq/limgo/futupb/Common"
+import Common "limgo/futupb/Common"
 import Trd_Common "limgo/futupb/Trd_Common"
 
 // Reference imports to suppress errors if they are not otherwise used.

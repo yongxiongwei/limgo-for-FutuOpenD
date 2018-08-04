@@ -35,7 +35,7 @@ func (m *C2S) Reset()         { *m = C2S{} }
 func (m *C2S) String() string { return proto.CompactTextString(m) }
 func (*C2S) ProtoMessage()    {}
 func (*C2S) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Qot_RegQotPush_81b0b188d37fb1b2, []int{0}
+	return fileDescriptor_Qot_RegQotPush_5c5802a2843387ad, []int{0}
 }
 func (m *C2S) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_C2S.Unmarshal(m, b)
@@ -100,7 +100,7 @@ func (m *S2C) Reset()         { *m = S2C{} }
 func (m *S2C) String() string { return proto.CompactTextString(m) }
 func (*S2C) ProtoMessage()    {}
 func (*S2C) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Qot_RegQotPush_81b0b188d37fb1b2, []int{1}
+	return fileDescriptor_Qot_RegQotPush_5c5802a2843387ad, []int{1}
 }
 func (m *S2C) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_S2C.Unmarshal(m, b)
@@ -131,7 +131,7 @@ func (m *Request) Reset()         { *m = Request{} }
 func (m *Request) String() string { return proto.CompactTextString(m) }
 func (*Request) ProtoMessage()    {}
 func (*Request) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Qot_RegQotPush_81b0b188d37fb1b2, []int{2}
+	return fileDescriptor_Qot_RegQotPush_5c5802a2843387ad, []int{2}
 }
 func (m *Request) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Request.Unmarshal(m, b)
@@ -172,7 +172,7 @@ func (m *Response) Reset()         { *m = Response{} }
 func (m *Response) String() string { return proto.CompactTextString(m) }
 func (*Response) ProtoMessage()    {}
 func (*Response) Descriptor() ([]byte, []int) {
-	return fileDescriptor_Qot_RegQotPush_81b0b188d37fb1b2, []int{3}
+	return fileDescriptor_Qot_RegQotPush_5c5802a2843387ad, []int{3}
 }
 func (m *Response) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Response.Unmarshal(m, b)
@@ -230,10 +230,10 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("Qot_RegQotPush/Qot_RegQotPush.proto", fileDescriptor_Qot_RegQotPush_81b0b188d37fb1b2)
+	proto.RegisterFile("Qot_RegQotPush/Qot_RegQotPush.proto", fileDescriptor_Qot_RegQotPush_5c5802a2843387ad)
 }
 
-var fileDescriptor_Qot_RegQotPush_81b0b188d37fb1b2 = []byte{
+var fileDescriptor_Qot_RegQotPush_5c5802a2843387ad = []byte{
 	// 308 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x6c, 0x90, 0xc1, 0x4f, 0xc2, 0x30,
 	0x18, 0xc5, 0xd3, 0x95, 0x09, 0x16, 0xf4, 0x50, 0x8c, 0x69, 0x30, 0x31, 0xcd, 0xd4, 0xa4, 0x17,
